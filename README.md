@@ -32,3 +32,7 @@ Seed database
 ```
 php artisan db:seed --class=ArticleSeeder
 ```
+
+
+### Special Thanks To Jeremy McPeak:
+#### https://laracasts.com/series/jeremys-larabits/episodes/1
