@@ -40,3 +40,19 @@ Route::get('/search', function (Request $request) {
         'results' => $results
     ]);
 });
+
+
+Route::get('/custom-helpers', function (){
+
+    $items = [
+        "1231231231312",
+        "5242434234234",
+        "56546q1231212",
+        "45645646456456",
+        "67657657567666"
+    ];
+
+    return view('custom', [
+        'items' => $items
+    ]);
+});
